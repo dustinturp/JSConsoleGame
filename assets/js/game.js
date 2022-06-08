@@ -1,11 +1,16 @@
 /* GAME FUNCTIONS */
 
 // function to generate a random numeric value
-var randomNumber = function(min, max) {
-  var value = Math.floor(Math.random() * (max - min + 1) + min);
+const randomNumber = (min, max) => {
+  const value = Math.floor(Math.random() * (max - min + 1) + min);
 
   return value;
-};
+}
+// var randomNumber = function(min, max) {
+//   const value = Math.floor(Math.random() * (max - min + 1) + min);
+
+//   return value;
+// };
 
 var fightOrSkip = function() {
   var promptFight = window.prompt('Would you like to FIGHT or SKIP this battle? Enter "FIGHT" or "SKIP" to choose.');
