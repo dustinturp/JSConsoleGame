@@ -15,3 +15,7 @@ choose to fight another robot, and shop for upgrades.
 * User input
 * Randomization
 * Control Flow
+
+
+## Future updates
+* update to ES6 syntax
